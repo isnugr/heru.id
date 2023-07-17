@@ -1,7 +1,5 @@
-diff --git a/Agent.pm b/Agent.pm
-index dceee77..5ff1fa9 100644
---- a/Agent.pm
-+++ b/Agent.pm
+--- /usr/share/perl5/PVE/API2/Agent.pm.7
++++ /usr/share/perl5/PVE/API2/Agent.pm
 @@ -274,12 +274,10 @@ __PACKAGE__->register_method({
  	    vmid => get_standard_option('pve-vmid', {
  		    completion => \&PVE::QemuServer::complete_vmid_running }),
